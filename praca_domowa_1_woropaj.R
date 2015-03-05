@@ -24,6 +24,7 @@ gosp %>%
            col = "black") +
   facet_wrap(~ woj, ncol = 1) +
   coord_flip() +
-  xlab("Województwa")
-
+  xlab("Województwa") +
+  theme_bw() +
+  ggtitle("tytuł")
 
